@@ -30,6 +30,8 @@ http://code.google.com/p/rogue-code/wiki/ToneLibraryDocumentation or just search
 
 Try uncommenting different songs such as The Simpsons, Super Mario Brothers Underground theme, Star Wars, etc..  Make sure only one song is uncommented at a time.  Recompile, reflash and play!
 
+This version is tweaked to allow for selection of song via the parameter fed in to remote. All songs are enabled and put into a struct array to make this easier. THe paramter can either be the string of the song title or "random" to select a random song. The arg can also be "debugon" or "debugoff" to control the serial debug.
+
 ![iPhone5s](http://i.imgur.com/v8c8AM5.jpg)
 ![iPhone5s](http://i.imgur.com/JwNE76h.png)
 ![iPhone5s](http://i.imgur.com/YaWcNXL.png)
